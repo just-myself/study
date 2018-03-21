@@ -1,0 +1,152 @@
+.editable-row-operations a {
+  margin-right: 8px;
+}
+
+.editable-cell {
+  position: relative;
+}
+
+.editable-cell-input-wrapper,
+.editable-cell-text-wrapper {
+  padding-right: 24px;
+}
+
+.editable-cell-text-wrapper {
+  padding: 5px 24px 5px 5px;
+}
+
+.editable-cell-icon,
+.editable-cell-icon-check {
+  position: absolute;
+  right: 0;
+  width: 20px;
+  cursor: pointer;
+}
+
+.editable-cell-icon {
+  line-height: 18px;
+  display: none;
+}
+
+.editable-cell-icon-check {
+  line-height: 28px;
+}
+
+.editable-cell:hover .editable-cell-icon {
+  display: inline-block;
+}
+
+.editable-cell-icon:hover,
+.editable-cell-icon-check:hover {
+  color: #108ee9;
+}
+
+.editable-add-btn {
+  margin-bottom: 8px;
+}
+
+.ant-layout-header {
+  border-bottom: 1px solid #000;
+  height: 100px;
+  line-height: 60px;
+}
+
+.ant-list-item .ant-list-item-meta {
+  width: 40%;
+  margin: 0 40% 0 10%;
+  overflow: hidden;
+  height: 50px;
+  line-height: 50px;
+  ;
+}
+
+.ant-list-item .ant-list-item-meta .ant-list-item-meta-content .ant-list-item-meta-title {
+  display: inline-block;
+  width: 30%;
+  height: 50px;
+  line-height: 50px;
+}
+
+.ant-list-item .ant-list-item-meta .ant-list-item-meta-content .ant-list-item-meta-title a {
+  font-size: 24px;
+  margin-left: -20%;
+  color: #000;
+}
+
+.ant-list-item .ant-list-item-meta .ant-list-item-meta-content .ant-list-item-meta-description {
+  font-size: 14px;
+  display: inline-block;
+}
+
+.ant-layout-content .ant-input {
+  height: 45px;
+  line-height: 45px;
+}
+
+.ant-layout-content .ant-btn {
+  width: 60px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+}
+
+.ant-layout-content #all p {
+  margin: 0;
+  font-size: 16px;
+  color: #001;
+  text-align: end;
+  padding-right: 10%;
+}
+
+.all {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.all .ant-list-item {
+  width: 100%;
+  height: 50px;
+}
+
+.all .ant-list-item .ant-list-item-meta {
+  width: 80%;
+  margin: 0 10% 0 5%;
+  overflow: hidden;
+  height: 40px;
+  line-height: 40px;
+  ;
+}
+
+.all .ant-list-item .ant-list-item-meta .ant-list-item-meta-content {
+  height: 40px;
+  line-height: 40px;
+}
+
+.all .ant-list-item .ant-list-item-meta .ant-list-item-meta-content .ant-list-item-meta-title {
+  width: 200px;
+  padding: 0;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+ left:100px;
+ bottom: 14px;
+
+}
+
+.all .ant-list-item .ant-list-item-meta .ant-list-item-meta-content .ant-list-item-meta-title  a {
+  font-size: 18px;
+  text-align: start;
+  color: #000;
+  left:100px;
+}
+
+.all .ant-list-item .ant-list-item-meta .ant-list-item-meta-content .ant-list-item-meta-description {
+  height: 40px;
+  text-align: start;
+  line-height: 40px;
+  width: 1000px;
+  overflow: hidden;
+  font-size: 14px;
+  display: inline-block;
+  padding-left:100px; 
+}
